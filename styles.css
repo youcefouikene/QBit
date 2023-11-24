@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+html { 
+  scroll-behavior: smooth;
+}
+
+body,html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Rubik;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: url(comps/bg.svg);
+}
+
+
+  /* --------------------------------------------------------------------HERO PAGE----------------------------------------------- */
+
+  .title{color: #F1D896;}
+
+.navbar{
+  color: #000;
+  list-style-type: none;
+  text-decoration-line: none;
+  width: 100%;
+  background-color: #1D3A35;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  box-shadow: 0 1px 0.9em #F1D896;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.heropage{
+  background: url(pics/blue_bg.png) no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+}
+
+.sit-logo{
+  padding-left: 40px;
+}
+
+.sections{
+  display: flex;
+  gap: 50px;
+  padding-right: 30px;
+}
+
+#start1,#start2,#start3,#start4,#start5,#start6{
+  list-style-type: none;
+  text-decoration-line: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+.place , .date{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.place{padding-bottom: 42px;}
+
+.place img , .date img{
+  height: 40px;
+  width: auto;
+}
+
+.herobody{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+#vid{
+  width: 56%;
+  height: 63%;
+  MARGIN: 70px 0 0 22%;
+  /* border-radius: 50%; */
+}
+
+/* .teaserdiv{
+  width: 100%;
+  height: 100%;
+  background: url(pics/teaser1.png) no-repeat center;
+  background-size: 66%;
+} */
+
+.teaserimage{
+  margin-left: 20%;
+  width: 66%;
+}
+
+ .teaser{
+   padding:18px 40px 0 5px;
+   display: flex;
+   flex-direction: column;  
+  } 
+
+.cprograming{
+  padding-left: 70px;
+}
+
+.heropage h1{font-size: 3.6em;}
+.heropage p{font-size: 1.3em;}
+
+.bouton1{
+  border-radius: 2em;
+  background-color: #F1D896;
+  color: #1D3A35;
+  height: 57px;
+  width: 200PX;
+  font-weight: 900;
+  border-color: #F1D896;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.bouton1 a {
+  color: #1D3A35;
+  font-weight: 900;
+  font-size: 1em;
+  list-style-type: none;
+  text-decoration-line: none;
+}
+
+.scroll{
+  height: 169px;
+  margin-top: -94px;
+  width: 56px;
+  margin-left: 93%;
+}
+
+
+
+
+/* -------------------------------------------------ABOUT SECTION------------------------------------------------- */
+
+
+.aboutsection{
+  color: black;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.logojs{width: 1%;}
+
+.aboutsection h1{color: #1D3A35;}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.team{
+  width: 50%;
+  height: auto;
+  margin-top: -25%;
+}
+
+.work{
+  width: 35%;
+  height: auto;
+  padding-left: 7%;
+}
+
+.goodteam{
+  padding-left: 45%;
+}
+
+.images2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.csel{
+  padding-left: 63%;
+  height: auto;
+  width: 30%;
+}
+
+.cset{
+  height: auto;
+  width: 50%;
+  padding-left: 7%;
+  margin-top: -18%;
+  margin-bottom: 10%;
+}
+
+.para11{
+  margin: 10% 0 -12% 49%;
+  width: 40%;
+  height: 10%;
+  font-size: 1.5em;
+  color: #1D3A35;
+  text-shadow: 2px 2px #F1D896;
+}
+
+.para22{
+  margin: 10% 0 -13% -3%;
+  width: 70%;
+  height: 1%;
+  font-size: 1.7em;
+  color: #1D3A35;
+  text-shadow: 2PX 2PX #F1D896;
+}
+
+.eventtitle{
+  font-size: 3em;
+  padding: 10% 0 0 10%;
+  background: url(pics/surligneu.png) no-repeat ;
+  background-size: 30% 16%;
+  background-position-y: 158px;
+  background-position-x: 138px;
+  color: #1D3A35;
+  /* text-decoration: underline solid #33FFC0; */
+}
+
+.csetitle{
+  margin: 10% 0 -7% 65%;
+  font-size: 3em;
+  background: url(pics/surligneu.png) no-repeat;
+  background-size: 230px 29px;
+  background-position: top 35PX left 0;
+}
+
+
+
+/* ---------------------------------------------- AGENDA SECTION --------------------------------------------------- */
+
+
+.agendatitle{
+  color: #1D3A35;
+  font-family: rubik;
+  font-weight: 900;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 70px;
+  background: url(pics/surligneu.png) no-repeat center;
+  background-size: 190px 30px;
+  background-position-y: 30px;
+}
+
+.daytitle{
+  padding-left: 5%;
+  height: auto;
+  width: 15%;
+}
+
+.day{
+ margin: 2% 6% 6% 0;
+ width: 80%;
+ height: 100%;
+}
+
+.firstpart{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ padding-left: 20px ;
+}
+
+.secondpart{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ padding-right: 20px;
+}
+
+.firstevenet{
+ margin-top: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: #F1D896;
+ /* margin-left: 23%; */
+ background-color: #1D3A35;
+ border-radius: 30px;
+ border: 6px solid #CCC;
+ width: 50%;
+ height: 7%;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+/* .firstevenet p{
+ margin: 5px;
+ font-family: rubik;
+} */
+
+.para1{
+ font-size: 1.1em;
+ margin: 5px 0 5px 3px;
+ font-family: rubik;
+}
+
+.para2{
+ font-size: 1em;
+ color: #F1D896;
+ margin: 5px;
+ font-family: rubik;
+} 
+
+.Ellipse {
+ background-color: rgba(241, 216, 150, 0.85);
+ border-radius: 100%;
+ height: 13px;
+ width: 13px;
+ border: 5px solid #cccccc;
+ box-shadow: 0 0 2em rgba(241, 216, 150, 0.85);
+}
+
+
+.Agenda{
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new{
+  /* height: 300%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 95%;
+  padding: 2.5%;
+  background: url(pics/agenda_bg.png) no-repeat center;
+  background-size: contain  ;
+}
+
+.secondpart img{justify-content: space-around;}
+  /* ---------------------------------------------SPEAKERS SECTION------------------------------------------------------- */
+
+.speakerstitle{
+  font-size: 3em ;
+  font-weight: 900;
+  font-family: rubik;
+  color: #1D3A35;
+  text-align: center;
+  margin-bottom: 50px;
+  background: url(pics/surligneu.png) no-repeat center;
+  background-size: 230px 40px;
+  background-position-y: 20px;
+}
+
+.speakerBox {
+  /* padding-top: 30px; */
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.speaker {
+  width: 320px;
+  height: 350px;
+  background: linear-gradient(181deg, #1D3A35 36.81%, #FFF 278.7%);
+  border-radius: 50px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  margin: 10px;
+
+  line-height: 20px;
+  color: #F1D896;
+  position: relative;
+}
+
+.speakerName {
+  font-family: "Rubik";
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 1px;
+  /* margin-top: 90px; */
+}
+
+.speakerimage {
+  border: 5px solid #F1D896;
+  box-sizing: border-box;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+
+.description{
+  font-size: 1.2em;
+}
+
+.Speakers{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+/* -------------------------------------------------------------FAQ SECTION---------------------------------------------------------------- */
+
+
+.swiper {
+ width: 100%;
+ height: 100%;
+}
+
+.old{
+  width: 100%;
+ height: 100%;
+ background: url(pics/mygroup1.png) no-repeat center;
+ background-size: 810px;
+ background-position: 50% 45%;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+.myslide{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #fff;
+   font-size: 1.6em;
+}
+
+.titlefaq{
+   margin-bottom: 2px ;
+}
+
+.para{
+   margin-bottom: 364px;
+}
+
+
+.swiper-pagination-bullet {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #F1D896;
+  opacity: 1;
+  font-weight: 900;
+  border: 4px solid #F1D896;
+  background: #1D3A35;  
+}
+
+
+#faqnumbers, #faqnumbers-clickable, #faqnumbers-bullets, #faqnumbers-horizontal{ margin: 0 10px 280px 0;}
+
+
+.swiper-pagination-bullet-active {
+ color: #fff;
+ background-color: #007aff;
+}
+
+.FAQtitle{
+ color: #1D3A35;
+ text-align: center;
+ font-size: 3em;
+ margin-top: 110px;
+ margin-bottom: 92px;
+ background: url(pics/surligneu.png) no-repeat;
+ background-size: 100px 20px;
+ background-position: 50% 90%;
+}
+
+
+/* -----------------------------------------------------------------SPONSORS SECTION------------------------------------------- */
+
+.sponsorssection{
+  padding: 20px 0 70px 0;
+}
+
+.sponsorstitle{
+  background: url(pics/surligneu.png) center 95% / 362px no-repeat;
+  padding-top: 60px;
+  margin-top: 0px;
+  color: rgb(17, 19, 86);
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10%;
+}
+
+.sponsors{
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  padding-left: 9%;
+  align-items: center;
+  gap: 94px;
+}
+
+.sponsors img{
+  height: auto;
+  width: 40%;
+}
+
+
+.sponsors-part1{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.sponsors-part2{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+/* .sponsors-part3{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+} */
+
+.sponsors-part img{
+  width: 70%;
+  height: 40%;
+}
+
+
+/* ------------------- ---------------------------------CONTACT SECTION------------------------------------------------------------*/
+
+
+.contactsection{
+  background-color: #356356;
+} 
+
+.regestration{
+  background-color: #1D3A35;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.register{width: 37%;}
+
+.register button {
+  border-radius: 2em;
+  background-color: #F1D896;
+  color: #1D3A35;
+  height: 57px;
+  width: 200PX;
+  font-weight: 900;
+  border-color: #F1D896;
+  font-size: 1em;
+}
+
+.register button a{
+  color: #1D3A35;
+  font-weight: 900;
+  font-size: 1em;
+  list-style-type: none;
+  text-decoration-line: none;
+}
+
+.solveit{
+  color: #F1D896;
+}
+
+.it{
+  padding-left: 22%;
+  font-size: 1.7em;
+}
+
+p{
+  text-align: center;
+}
+
+.images3{
+  display: flex;
+  gap: 35PX;
+  justify-content: center;
+}
+
+.logo img{width: 12%;}
+.logo1 img{width: 50%;}
+
+.qst{
+  font-size: 50px;
+  font-weight: 900;
+  color: #F1D896;
+}
+
+.email{
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.contact{margin:10px 0 0 0 ;}
+
+.cont{
+  text-align: center;
+}
+
+.media{
+  padding-top: 20px;
+  justify-content: center;
+  gap: 60PX;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 60px;
+  text-align: center;
+}
+
+.reseaux {
+  background-color: #1D3A35;
+  color: white;
+  border-radius: 60px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border: 5px solid #F1D896;
+}
+.reseaux a{color: #F1D896;}
+
+.copyright{
+  background-color: #ffffff;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  color: #111356;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 1em;
+}
